@@ -1,0 +1,15 @@
+{
+  "name": "root-index-resolve",
+  "version": "1.0.0",
+  "description": "serverless aws s3 lambda@edge directory root index resolver",
+  "main": "index.js",
+  "repository": "https://github.com/randyhoulahan/root-index-resolve",
+  "author": "Randy J. Houlahan",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "deploy:dev": "serverless deploy -v -s dev",
+    "deploy:prod": "serverless deploy -v -s prod",
+    "offline": "serverless invoke local --function main --path tests/invoke.json -s dev"
+  }
+}
