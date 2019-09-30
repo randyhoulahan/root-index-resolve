@@ -1,10 +1,10 @@
 {
-  "name": "root-index-resolve",
+  "name": "origin-504-detection",
   "version": "1.0.0",
-  "description": "serverless aws s3 lambda@edge directory root index resolver",
+  "description": "serverless aws s3 lambda@edge detect 504 from orgin",
   "main": "index.js",
-  "repository": "https://github.com/randyhoulahan/root-index-resolve",
-  "author": "Randy J. Houlahan",
+  "repository": "",
+  "author": "",
   "license": "MIT",
   "private": false,
   "scripts": {
