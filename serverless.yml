@@ -1,6 +1,6 @@
 
 
-service: static-root-resolve # NOTE: update this with your service name
+service: origin-504-detection # NOTE: update this with your service name
 
 provider:
   name: aws
